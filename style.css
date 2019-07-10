@@ -1,0 +1,60 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/*"Productivity Styling"*/
+
+h1{
+  display:flex;
+  color: green;
+  justify-content: center;
+  margin-top:25px;
+  margin-bottom:25px;
+  font-family: 'Poiret One', cursive;
+}
+
+.pictures{
+  display:flex;
+
+}
+
+@media screen and (max-width:1000px){
+
+  .pictures{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+
+  }
+
+img{
+  display:flex;
+  height:300px;
+  width:300px;
+  margin-left: 30px;
+
+}
+#wolf{
+  display:flex;
+  margin-right: 30px;
+}
+}
+
+@media screen and (max-width:900px){
+
+  .pictures{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+  }
+img{
+  display:flex;
+  height:300px;
+  width:300px;
+  margin-left: 50px;
+
+
+}
+}
